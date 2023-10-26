@@ -1,20 +1,31 @@
 ---
 layout: default
 title: "Home"
----
+<style>
+  img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
 
-<div style="display: flex; align-items: center;">
-  <img src="https://i.imgur.com/WJaqpti.jpg" alt="Your Name" width="400" height="400" style="border-radius: 50%;" />
-<p style="margin-left: 20px; margin-right: 20px;">
- .welcome {
-    font-weight: bold; /* Make the "Welcome!" text bold */
+  .welcome {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
   }
 
   p {
-    margin-top: 20px; /* Add space between "Welcome!" and the description */
-    max-width: 600px; /* Set the maximum width for the text container, adjust as needed */
+    text-align: center;
+    margin-top: 20px;
+    max-width: 600px;
   }
+</style>
+<div style="display: flex; align-items: center; flex-direction: column; text-align: center;">
+  <img src="https://i.imgur.com/WJaqpti.jpg" alt="Your Name" />
+  <p class="welcome">Welcome!</p>
   <p>
-  I am currently holding a postdoctoral position in Public Health at the University of Liverpool. My research primarily centers on examining how welfare reforms impact health outcomes. Before joining the University of Liverpool, I pursued my doctoral studies in Economics at the University of Glasgow.
+    I am currently holding a postdoctoral position in Public Health at the University of Liverpool. My research primarily centers on examining how welfare reforms impact health outcomes. Before joining the University of Liverpool, I pursued my doctoral studies in Economics at the University of Glasgow.
   </p>
 </div>
