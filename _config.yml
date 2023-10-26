@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", icon: home}
-  - {title: "About me", icon: address-card}
+  - {title: "About me", icon: home}
+  - {title: "CV", icon: address-card}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:hss6c@liverpool.ac.uk"}
